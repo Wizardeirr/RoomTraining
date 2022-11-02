@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".NutritionInsides">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:ignore="ExtraText">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        tools:context=".NutritionContent">
 
-</FrameLayout>
+        <Button
+            android:id="@+id/nutrition_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to Nutrıtıon lIst"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="277dp">
+
+        </Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
