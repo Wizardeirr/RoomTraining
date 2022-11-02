@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827576881742",
+    "project_id": "share-photo-f2712",
+    "storage_bucket": "share-photo-f2712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827576881742:android:359ca5e5c5e11edc1d291f",
+        "android_client_info": {
+          "package_name": "com.volkankelleci.sharephotosbasicly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827576881742-6p6l7ektulin8ft5s7uvok21nvsh3vm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKnbd06Oc6EEDZpUWdokzw6v9STIXLndM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827576881742-6p6l7ektulin8ft5s7uvok21nvsh3vm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
